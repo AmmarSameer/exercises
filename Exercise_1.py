@@ -8,7 +8,6 @@ w1 = 100.0                  # wavelength (meters)
 w2 = 20.0                   # wavelength (meters)
 w3 = 60.0
 w4 = 30.0
-
 f1=  6*np.sin(2*np.pi*x/w1)
 f2=  2*np.cos(2*np.pi*x/w2)
 f3=  3*np.sin(2*np.pi*x/w3)
