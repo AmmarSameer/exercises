@@ -1,7 +1,5 @@
 #Create a numpy array that contains a periodic signal, which is generated from the sum of two sine and two cosine functions. The frequency and amplitude of the sine and cosine components are arbitrary.
-from numpy import fft
 import numpy as np
-import matplotlib.pyplot as plt
 n = 1000                    # Number of data points
 dx = 5.0                    # Sampling period (in meters)
 x = dx*np.arange(0,n)       # x coordinates
