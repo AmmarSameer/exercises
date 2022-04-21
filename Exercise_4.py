@@ -1,4 +1,4 @@
-# Make plots appear inline, set custom plotting style
+# Standardize the original and the noisy signal to have zero mean and unit variance. Plot the resulting signals. Use the sklearn package
 from numpy import fft
 import numpy as np
 from sklearn.model_selection import train_test_split
