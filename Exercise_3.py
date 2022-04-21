@@ -1,4 +1,4 @@
-# Make plots appear inline, set custom plotting style
+# Add random noise to the original signal and redo the tasks of exercise 2
 from numpy import fft
 import numpy as np
 import matplotlib.pyplot as plt
