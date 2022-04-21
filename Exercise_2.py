@@ -1,4 +1,4 @@
-# Make plots appear inline, set custom plotting style
+# Plot the resulting signal with matplotlib. Calculate the FFT components of the signal and plot them.
 from numpy import fft
 import numpy as np
 import matplotlib.pyplot as plt
