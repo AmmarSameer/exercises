@@ -1,4 +1,4 @@
-# Make plots appear inline, set custom plotting style
+# Create two arbitrary signals as sum of sines and cosines and use a clustering algorithm to automatically classify them. Use The sklearn package.
 from numpy import fft
 import numpy as np
 import matplotlib.pyplot as pyplot
@@ -10,7 +10,6 @@ from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
 from numpy import where
 from sklearn.datasets import make_classification
-
 import matplotlib.pyplot as plt
 n = 100                    # Number of data points
 dx = 5.0                    # Sampling period (in meters)
@@ -26,7 +25,6 @@ f4=  5*np.cos(2*np.pi*x/w4)
 f11 = f1 + f2
 f22 = f3 + f4 
 ff = f11 ,f22
-
 kmeans = KMeans(n_clusters=2, random_state=0).fit(ff)
 kmeans.labels_
 kmeans.predict(ff)
